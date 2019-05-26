@@ -1,9 +1,11 @@
 package com.tests;
+import com.stacks.ListStacks;
 import com.stacks.Stack;
 import com.stacks.Stacks;
 
 public class StackTest {
-    Stack stack = new Stacks();
+    //Stack stack = new Stacks();
+    Stack stack = new ListStacks();
     public static void main(String[] args) {
 
         StackTest app = new StackTest();
